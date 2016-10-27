@@ -18,7 +18,8 @@ public class JavaApplication5 {
      */
     public static void main(String[] args) {
         
-        double base = Integer.parseInt(JOptionPane.showInputDialog("Introduce base"));
+        double base = Double.parseDouble(JOptionPane.showInputDialog("Introduce base"));
+        double altura= Double.parseDouble(JOptionPane.showInputDialog("Introduce altura"));
     }
     
 }
