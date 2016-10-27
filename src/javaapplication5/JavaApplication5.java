@@ -18,9 +18,8 @@ public class JavaApplication5 {
      */
     public static void main(String[] args) {
         
-        double base = Double.parseDouble(JOptionPane.showInputDialog("Introduce base"));
-        double altura= Double.parseDouble(JOptionPane.showInputDialog("Introduce altura"));
-        JOptionPane.showMessageDialog(null, "El área del triángulo es igual a " + base+altura/2 + "cm^2.");
+        double lado = Double.parseDouble(JOptionPane.showInputDialog("Introduce lado"));
+        JOptionPane.showMessageDialog(null, "El área del triángulo es igual a " + (Math.pow(lado, 2)) + "cm^2.");
     }
     
 }
